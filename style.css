@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'font_capture';
+    src: url("capture_it") format('opentype'), url('capture_it.ttf') format('truetype');
+    /* Tipos de formato:
+    opentype (otf)
+    Truetype (ttf)
+    embedded-Opentype,truetype-aat (Apple Advanced Typography)
+    svg*/
+}
+
+body{
+    height: 100vh;
+    background-image: url("albatroz.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.titulo1{
+    background-image: linear-gradient(#F1029B, #0a1a74);
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: monospace;
+    margin: auto;
+    text-align: center;
+}
+
+#frase1{
+    font-family: "font_capture";
+    color: #00eeff;
+    width: 50%
+}
+
+#frase2, #frase3{
+    font-family: "font_capture";
+    color: #00eeff;
+    width: 20%
+}
+
+#frase4{
+    font-family: "font_capture";
+    color: #00eeff;
+    width: 40%
+   
+}
+
+#frase5{
+    font-family: "font_capture";
+    color: #00eeff;
+    width: 40%
+}
+
+p{
+    font-family: "arial-black";
+    font-size: 15px;
+    margin: center;
+    text-align: center;
+    color: #1eff00;
+
+}
+div{
+    font-family: "arial-black";
+    font-weight: bold;
+    font-family: monospace;
+    margin: auto;
+    text-align: center;
+    color: #1eff00;
+}
+.container{
+    font-family: "font_capture";
+    display: flex;   align-items: stretch;   justify-content: center;
+}
+
+.item{
+    margin: 10px;
+    background-image: linear-gradient(#F1029B, #0a1a74);
+    border-radius: 40px;
+    padding: 10px 10px;
+
+}
+img{
+    margin: auto;   display: flex;   align-items: center;   justify-content: center; /* Estudando ele ainda, porém sei que ele centraliza minha imagem no site */
+    border-radius: 100px; /*border = comando para eu arredondar a borda da imagem, depois eu coloco os pixels que eu quero nele */
+}
